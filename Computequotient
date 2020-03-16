@@ -1,0 +1,21 @@
+package Bootcamp;
+
+public class Computequotient {
+	
+
+	    public static void main(String[] args) {
+	    	
+	    	System.out.println(args[0]);
+	    	int dividend=Integer.parseInt(args[0]);
+	    	System.out.println(args[1]);
+	    	int divisor=Integer.parseInt(args[1]);
+	        
+
+	        int quotient = dividend / divisor;
+	        int remainder = dividend % divisor;
+
+	        System.out.println("Quotient = " + quotient);
+	        System.out.println("Remainder = " + remainder);
+	    }
+	}
+
